@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Fira Code;
+
+}
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fddcc356;
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.left{
+    width: 50%;
+    height: 600px;
+    /* background: url(5353134.jpg) no-repeat center / cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+} 
+
+.right{
+    width: 50%;
+    min-height: 400px;
+    background-color: #3f3d3c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    margin-left: -150px;
+}
+
+.right h1{
+    font-size: 40px;
+    font-weight: lighter;
+
+}
+
+.right p{
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.right a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 2px;
+}
